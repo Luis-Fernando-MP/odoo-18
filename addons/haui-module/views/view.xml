@@ -1,0 +1,11 @@
+<odoo>
+    <record id="view_form_mi_modelo" model="ir.ui.view">
+        <field name="name">mi.modelo.form</field>
+        <field name="model">mi.modelo</field>
+        <field name="arch" type="xml">
+            <form string="Mi Modelo">
+                <field name="name"/>
+            </form>
+        </field>
+    </record>
+</odoo>
